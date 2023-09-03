@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;controller&#x2F;subsystem&#x2F;media - Daedalus Dock</title>
+</head>
+<body>
+<header>
+    <a href="index.html">Daedalus Dock</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/controller/subsystem/media.html#var">Var Details</a> - <a href="datum/controller/subsystem/media.html#proc">Proc Details</a></header>
+<main>
+<h1>media <aside>/<a href="datum.html">datum</a>/<a href="datum/controller/subsystem.html">controller/subsystem</a>/<a href="datum/controller/subsystem/media.html">media</a></aside>
+        
+    
+            <a href="https://github.com/RegJoe/DS13_2.0/blob/3bf11be5fe9062d10f8224a1024d884cdd060331/code/controllers/subsystem/media.dm#L1">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;media.dm 1"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/controller/subsystem/media.html#var/byond_sound_formats">byond_sound_formats</a></th><td>Stores all sound formats byond understands.</td></tr>
+            <tr><th><a href="datum/controller/subsystem/media.html#var/errored_files">errored_files</a></th><td>It's more consistently functional to just store these in a list and tell admins to go digging than log it.</td></tr>
+            <tr><th><a href="datum/controller/subsystem/media.html#var/tracks_by_tag">tracks_by_tag</a></th><td>Media definitions grouped by their <code>media_tags</code>, All tracks share the implicit tag <code>all</code></td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="datum/controller/subsystem/media.html#proc/get_track_pool">get_track_pool</a></th><td>A two-entry list containing the erroring tag, and a reason for the error.</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/byond_sound_formats"><aside class="declaration">var </aside>byond_sound_formats
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/RegJoe/DS13_2.0/blob/3bf11be5fe9062d10f8224a1024d884cdd060331/code/controllers/subsystem/media.dm#L14">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;media.dm 14"/></a></h3>
+        <p>Stores all sound formats byond understands.</p><h3 id="var/errored_files"><aside class="declaration">var </aside>errored_files
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/RegJoe/DS13_2.0/blob/3bf11be5fe9062d10f8224a1024d884cdd060331/code/controllers/subsystem/media.dm#L11">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;media.dm 11"/></a></h3>
+        <p>It's more consistently functional to just store these in a list and tell admins to go digging than log it.</p><h3 id="var/tracks_by_tag"><aside class="declaration">var </aside>tracks_by_tag
+            <aside>&ndash; /list/datum/media</aside>
+        
+    
+            <a href="https://github.com/RegJoe/DS13_2.0/blob/3bf11be5fe9062d10f8224a1024d884cdd060331/code/controllers/subsystem/media.dm#L8">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;media.dm 8"/></a></h3>
+        <p>Media definitions grouped by their <code>media_tags</code>, All tracks share the implicit tag <code>all</code></p><h2 id="proc">Proc Details</h2><h3 id="proc/get_track_pool"><aside class="declaration">proc </aside>get_track_pool<aside>(media_tag) 
+        
+    
+            <a href="https://github.com/RegJoe/DS13_2.0/blob/3bf11be5fe9062d10f8224a1024d884cdd060331/code/controllers/subsystem/media.dm#L121">
+        <img src="git.png" width="16" height="16" title="code&#x2F;controllers&#x2F;subsystem&#x2F;media.dm 121"/></a></aside>
+        </h3>
+        <p>A two-entry list containing the erroring tag, and a reason for the error.</p></main>
+<footer>
+    daedalus.dme
+    <a href="https://github.com/RegJoe/DS13_2.0/tree/3bf11be5fe9062d10f8224a1024d884cdd060331">3bf11be</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
+</body>
+</html>
